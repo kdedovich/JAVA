@@ -1,0 +1,116 @@
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+    public static void main(String[] args) {
+        //demonstration of how String type methods work
+        String str = "Hello World!";
+        System.out.println("str = " + str);
+        System.out.println();
+
+        //1 length
+        System.out.println("str.lenght() = " + str.length());
+        System.out.println();
+
+
+        //2 concat
+        String str2 = "!!!";
+        String sum = str.concat(str2);
+        System.out.println("str2 = " + str2);
+        System.out.println(" sum = str.concat(str2) = " + sum);
+        System.out.println();
+
+
+        //3 charAt
+        System.out.println("str.charAt(0) = " + str.charAt(0));
+        System.out.println("str.charAt(1) = " + str.charAt(1));
+        System.out.println("str.charAt(9) = " + str.charAt(9));
+        System.out.println("str.charAt(10) = " + str.charAt(10));
+        System.out.println();
+
+        //5 indexOf
+        System.out.println("str.indexOf(\"l\") = " + str.indexOf("l"));
+        System.out.println("str.indexOf(\"l\", 5) = " + str.indexOf("l", 5));
+        System.out.println("str.indexOf(\"World\") = " + str.indexOf("World"));
+        System.out.println();
+
+        //6 substring
+        String sub_str1 = str.substring(6);
+        System.out.println("sub_str1 = str.substring(6) = " + sub_str1);
+        String sub_str2 = str.substring(6, 11);
+        System.out.println("sub_str2 = str.substring(6, 11) = " + sub_str2);
+        System.out.println();
+
+        //7 replace
+        String replace_str = str.replace("l", "L");
+        System.out.println("replace_str = str.replace(\"l\", \"L\") = " + replace_str);
+        System.out.println();
+
+        //8 split
+        String[] split_str = str.split(" ");
+        System.out.println("split_str = str.split(\" \")");
+        for (int i = 0; i < split_str.length; i++) {
+            System.out.println("split_str[" + i + "] = " + split_str[i]);
+        }
+        System.out.println();
+
+        //9 toLowerCase
+        String lower_str = str.toLowerCase();
+        System.out.println("lower_str = str.toLowerCase() = " + lower_str);
+        System.out.println();
+
+        //10 toUpperCase
+        String upper_str = str.toUpperCase();
+        System.out.println("upper_str = str.toUpperCase() = " + upper_str);
+        System.out.println();
+
+        //11 trim
+        String str3 = "   Hello World!   ";
+        System.out.println("str3 = " + str3);
+        String trim_str = str3.trim();
+        System.out.println("trim_str = str3.trim() = " + trim_str);
+        System.out.println();
+
+        //12 isEmpty
+        String empty_str = "";
+        System.out.println("empty_str = " + empty_str);
+        System.out.println("empty_str.isEmpty() = " + empty_str.isEmpty());
+        System.out.println("str.isEmpty() = " + str.isEmpty());
+        System.out.println();
+
+
+        //13 contains
+        System.out.println("str.contains(\"Hello\") = " + str.contains("Hello"));
+        System.out.println("str.contains(\"hello\") = " + str.contains("hello"));
+        System.out.println("str.contains(\"World\") = " + str.contains("World"));
+        System.out.println("str.contains(\"world\") = " + str.contains("world"));
+        System.out.println();
+
+        //14 equals
+        System.out.println("str.equals(\"Hello World!\") = " + str.equals("Hello World!"));
+        System.out.println("str.equals(\"hello world\") = " + str.equals("hello world!"));
+        System.out.println();
+
+        //15 equalsIgnoreCase
+        System.out.println("str.equalsIgnoreCase(\"Hello World!\") = " + str.equalsIgnoreCase("Hello World!"));
+        System.out.println("str.equalsIgnoreCase(\"hello world!\") = " + str.equalsIgnoreCase("hello world!"));
+        System.out.println("str.equalsIgnoreCase(\"hello world!\") = " + str.equalsIgnoreCase("hello world"));
+        System.out.println();
+
+        //16 compareTo
+        String str1 = "bcd";
+        System.out.println("str1 = " + str1);
+        System.out.println("str1.compareTo(abc) = " + str1.compareTo("abc"));
+        System.out.println("str1.compareTo(bcd) = " + str1.compareTo("bcd"));
+        System.out.println("str1.compareTo(cde) = " + str1.compareTo("cde"));
+        System.out.println("str1.compareTo(bc) = " + str1.compareTo("cde"));
+        System.out.println();
+
+        //17 toString
+        Integer x = 123;
+        System.out.println("x = " + x);
+        System.out.println("x.toString() = " + x.toString());
+        System.out.println();
+
+
+    }
+}
