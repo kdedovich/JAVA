@@ -1,5 +1,5 @@
 public class Main {
-    public static void leap_year(int n) {
+    public static void leapYear(int n) {
         System.out.println("is " + n + " leap year?");
         System.out.println("(" + n+ " % 4 == 0) && (!(" + n + " % 100 == 0) || (" + n + " % 400 == 0))");
         System.out.println((n % 4 == 0) && (!(n % 100 == 0) || (n % 400 == 0)));
@@ -32,10 +32,10 @@ public class Main {
         System.out.println("!true  = " + (!true));
         System.out.println();
 
-        leap_year(2000);
-        leap_year(2003);
-        leap_year(2020);
-        leap_year(2100);
+        leapYear(2000);
+        leapYear(2003);
+        leapYear(2020);
+        leapYear(2100);
 
         // ternary operator
         max(10, 5);

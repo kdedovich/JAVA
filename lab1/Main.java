@@ -34,46 +34,46 @@ public class Main {
         System.out.println();
 
         //6 substring
-        String sub_str1 = str.substring(6);
-        System.out.println("sub_str1 = str.substring(6) = " + sub_str1);
-        String sub_str2 = str.substring(6, 11);
-        System.out.println("sub_str2 = str.substring(6, 11) = " + sub_str2);
+        String subStr1 = str.substring(6);
+        System.out.println("subStr1 = str.substring(6) = " + subStr1);
+        String subStr2 = str.substring(6, 11);
+        System.out.println("subStr2 = str.substring(6, 11) = " + subStr2);
         System.out.println();
 
         //7 replace
-        String replace_str = str.replace("l", "L");
-        System.out.println("replace_str = str.replace(\"l\", \"L\") = " + replace_str);
+        String replaceStr = str.replace("l", "L");
+        System.out.println("replaceStr = str.replace(\"l\", \"L\") = " + replaceStr);
         System.out.println();
 
         //8 split
-        String[] split_str = str.split(" ");
-        System.out.println("split_str = str.split(\" \")");
-        for (int i = 0; i < split_str.length; i++) {
-            System.out.println("split_str[" + i + "] = " + split_str[i]);
+        String[] splitStr = str.split(" ");
+        System.out.println("splitStr = str.split(\" \")");
+        for (int i = 0; i < splitStr.length; i++) {
+            System.out.println("splitStr[" + i + "] = " + splitStr[i]);
         }
         System.out.println();
 
         //9 toLowerCase
-        String lower_str = str.toLowerCase();
-        System.out.println("lower_str = str.toLowerCase() = " + lower_str);
+        String lowerStr = str.toLowerCase();
+        System.out.println("lowerStr = str.toLowerCase() = " + lowerStr);
         System.out.println();
 
         //10 toUpperCase
-        String upper_str = str.toUpperCase();
-        System.out.println("upper_str = str.toUpperCase() = " + upper_str);
+        String upperStr = str.toUpperCase();
+        System.out.println("upperStr = str.toUpperCase() = " + upperStr);
         System.out.println();
 
         //11 trim
         String str3 = "   Hello World!   ";
         System.out.println("str3 = " + str3);
-        String trim_str = str3.trim();
-        System.out.println("trim_str = str3.trim() = " + trim_str);
+        String trimStr = str3.trim();
+        System.out.println("trimStr = str3.trim() = " + trimStr);
         System.out.println();
 
         //12 isEmpty
-        String empty_str = "";
-        System.out.println("empty_str = " + empty_str);
-        System.out.println("empty_str.isEmpty() = " + empty_str.isEmpty());
+        String emptyStr = "";
+        System.out.println("emptyStr = " + emptyStr);
+        System.out.println("emptyStr.isEmpty() = " + emptyStr.isEmpty());
         System.out.println("str.isEmpty() = " + str.isEmpty());
         System.out.println();
 
@@ -104,13 +104,6 @@ public class Main {
         System.out.println("str1.compareTo(cde) = " + str1.compareTo("cde"));
         System.out.println("str1.compareTo(bc) = " + str1.compareTo("cde"));
         System.out.println();
-
-        //17 toString
-        Integer x = 123;
-        System.out.println("x = " + x);
-        System.out.println("x.toString() = " + x.toString());
-        System.out.println();
-
 
     }
 }
