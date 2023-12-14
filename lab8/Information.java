@@ -1,5 +1,5 @@
 public class Information {
-    public static  void information(Class cls) {
+    public static  void information(Class<?> cls) {
         System.out.println("Class name: " + cls.getName());
         System.out.println();
 
